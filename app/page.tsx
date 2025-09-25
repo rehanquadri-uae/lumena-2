@@ -184,7 +184,7 @@ export default function Page() {
                 Floor {floor}
               </h2>
            <div className="flex justify-center">
-  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 justify-items-center">
+  <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-3 lg:gap-5">
     {floorUnits.map((u) => {
       const colors = statusColors(u.status);
       const clickable = u.status === "Available" || u.status === "On Hold";
