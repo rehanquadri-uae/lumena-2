@@ -193,7 +193,7 @@ export default function Page() {
                       <div
                         key={u.unit}
                         onClick={() => (clickable ? setSelected(u) : null)}
-                        className={`relative w-32 h-24 flex items-center justify-center bg-white rounded-xl shadow border-2 ${colors.border} ${
+                        className={`relative w-28 sm:w-32 h-20 flex items-center justify-center bg-white rounded-xl shadow border-2 ${colors.border} ${
                           clickable ? "cursor-pointer hover:shadow-lg" : ""
                         }`}
                       >
