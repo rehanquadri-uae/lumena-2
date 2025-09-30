@@ -123,7 +123,7 @@ export default function Page() {
             />
             <div className="text-center">
               <h1
-                className="text-2xl sm:text-4xl font-bold"
+                className="text-3xl sm:text-5xl font-bold"
                 style={{ fontFamily: "OptimaProBoldItalic", color: "#0A073E" }}
               >
                 Lumena Alta
