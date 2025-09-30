@@ -14,7 +14,7 @@ type Unit = {
 
 const SHEET_ID = process.env.NEXT_PUBLIC_GOOGLE_SHEET_ID!;
 const API_KEY = process.env.NEXT_PUBLIC_GOOGLE_API_KEY!;
-const RANGE = "'Lumena 2'!A1:F1000"; // 👈 Tab name + range
+const RANGE = "'Lumena Alta'!A1:F1000"; // 👈 Tab name + range
 const POLL_MS = 30_000;
 
 /* ---------- Helpers ---------- */
@@ -126,7 +126,7 @@ export default function Page() {
                 className="text-4xl sm:text-6xl font-bold"
                 style={{ fontFamily: "OptimaProBoldItalic", color: "#0A073E" }}
               >
-                Lumena 2
+                Lumena Alta
               </h1>
               <p
                 className="text-xl sm:text-2xl"
