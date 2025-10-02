@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Lumena Alta",
-  description: "Lumena Alta by Omniyat",
+  title: "Lumena 2",
+  description: "Lumena 2 by Omniyat",
   icons: {
     icon: "/favicon.png",
   },
